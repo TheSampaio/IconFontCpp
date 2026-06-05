@@ -8,8 +8,8 @@
 #define FONT_ICON_FILE_NAME_CI "codicon.ttf"
 
 #define ICON_MIN_CI 0xea60
-#define ICON_MAX_16_CI 0xf102
-#define ICON_MAX_CI 0xf102
+#define ICON_MAX_16_CI 0xecc3
+#define ICON_MAX_CI 0xecc3
 
 #define ICON_CI_ADD "\xee\xa9\xa0"	// U+ea60
 #define ICON_CI_PLUS "\xee\xa9\xa0"	// U+ea60
@@ -661,5 +661,63 @@
 #define ICON_CI_TERMINAL_SECURE "\xee\xb2\x85"	// U+ec85
 #define ICON_CI_CHAT_IMPORT "\xee\xb2\x86"	// U+ec86
 #define ICON_CI_CHAT_EXPORT "\xee\xb2\x87"	// U+ec87
-#define ICON_CI_VM_PENDING "\xef\x84\x81"	// U+f101
-#define ICON_CI_GIT_FETCH "\xef\x84\x82"	// U+f102
+#define ICON_CI_SHARE_WINDOW "\xee\xb2\x88"	// U+ec88
+#define ICON_CI_CIRCLE_SLASH_COMPACT "\xee\xb2\x89"	// U+ec89
+#define ICON_CI_COPILOT_COMPACT "\xee\xb2\x8a"	// U+ec8a
+#define ICON_CI_FOLDER_OPENED_COMPACT "\xee\xb2\x8b"	// U+ec8b
+#define ICON_CI_FOLDER_COMPACT "\xee\xb2\x8c"	// U+ec8c
+#define ICON_CI_GEAR_COMPACT "\xee\xb2\x8d"	// U+ec8d
+#define ICON_CI_GIT_BRANCH_COMPACT "\xee\xb2\x8e"	// U+ec8e
+#define ICON_CI_LIBRARY_COMPACT "\xee\xb2\x8f"	// U+ec8f
+#define ICON_CI_RECORD_KEYS_COMPACT "\xee\xb2\x90"	// U+ec90
+#define ICON_CI_REMOTE_COMPACT "\xee\xb2\x91"	// U+ec91
+#define ICON_CI_REPO_FORKED_COMPACT "\xee\xb2\x92"	// U+ec92
+#define ICON_CI_REPO_COMPACT "\xee\xb2\x93"	// U+ec93
+#define ICON_CI_SHIELD_COMPACT "\xee\xb2\x94"	// U+ec94
+#define ICON_CI_SPARKLE_COMPACT "\xee\xb2\x95"	// U+ec95
+#define ICON_CI_SYMBOL_COLOR_COMPACT "\xee\xb2\x96"	// U+ec96
+#define ICON_CI_WINDOW_COMPACT "\xee\xb2\x97"	// U+ec97
+#define ICON_CI_ERROR_COMPACT "\xee\xb2\x98"	// U+ec98
+#define ICON_CI_WARNING_COMPACT "\xee\xb2\x99"	// U+ec99
+#define ICON_CI_PASS_COMPACT "\xee\xb2\x9a"	// U+ec9a
+#define ICON_CI_IMPORTANT "\xee\xb2\x9b"	// U+ec9b
+#define ICON_CI_IMPORTANT_COMPACT "\xee\xb2\x9c"	// U+ec9c
+#define ICON_CI_ROCKET_COMPACT "\xee\xb2\x9d"	// U+ec9d
+#define ICON_CI_UNPIN "\xee\xb2\x9e"	// U+ec9e
+#define ICON_CI_ADD_COMPACT "\xee\xb2\x9f"	// U+ec9f
+#define ICON_CI_ATTACH_COMPACT "\xee\xb2\xa0"	// U+eca0
+#define ICON_CI_BEAKER_COMPACT "\xee\xb2\xa1"	// U+eca1
+#define ICON_CI_CHECK_COMPACT "\xee\xb2\xa2"	// U+eca2
+#define ICON_CI_CHECKLIST_COMPACT "\xee\xb2\xa3"	// U+eca3
+#define ICON_CI_CHEVRON_DOWN_COMPACT "\xee\xb2\xa4"	// U+eca4
+#define ICON_CI_CHEVRON_LEFT_COMPACT "\xee\xb2\xa5"	// U+eca5
+#define ICON_CI_CHEVRON_RIGHT_COMPACT "\xee\xb2\xa6"	// U+eca6
+#define ICON_CI_CHEVRON_UP_COMPACT "\xee\xb2\xa7"	// U+eca7
+#define ICON_CI_CIRCLE_FILLED_COMPACT "\xee\xb2\xa8"	// U+eca8
+#define ICON_CI_CIRCLE_SMALL_FILLED_COMPACT "\xee\xb2\xa9"	// U+eca9
+#define ICON_CI_CLOSE_COMPACT "\xee\xb2\xaa"	// U+ecaa
+#define ICON_CI_COLLAPSE_ALL_COMPACT "\xee\xb2\xab"	// U+ecab
+#define ICON_CI_COMMENT_COMPACT "\xee\xb2\xac"	// U+ecac
+#define ICON_CI_COMMENT_UNRESOLVED_COMPACT "\xee\xb2\xad"	// U+ecad
+#define ICON_CI_DEBUG_CONNECTED_COMPACT "\xee\xb2\xae"	// U+ecae
+#define ICON_CI_DEBUG_DISCONNECT_COMPACT "\xee\xb2\xaf"	// U+ecaf
+#define ICON_CI_EDIT_COMPACT "\xee\xb2\xb0"	// U+ecb0
+#define ICON_CI_FILE_MEDIA_COMPACT "\xee\xb2\xb1"	// U+ecb1
+#define ICON_CI_GIT_FETCH "\xee\xb2\xb2"	// U+ecb2
+#define ICON_CI_LIGHTBULB_COMPACT "\xee\xb2\xb3"	// U+ecb3
+#define ICON_CI_LOADING_COMPACT "\xee\xb2\xb4"	// U+ecb4
+#define ICON_CI_PASS_FILLED_COMPACT "\xee\xb2\xb5"	// U+ecb5
+#define ICON_CI_PROJECT_COMPACT "\xee\xb2\xb6"	// U+ecb6
+#define ICON_CI_REFRESH_COMPACT "\xee\xb2\xb7"	// U+ecb7
+#define ICON_CI_SEARCH_COMPACT "\xee\xb2\xb8"	// U+ecb8
+#define ICON_CI_SESSION_IN_PROGRESS_COMPACT "\xee\xb2\xb9"	// U+ecb9
+#define ICON_CI_SYNC_COMPACT "\xee\xb2\xba"	// U+ecba
+#define ICON_CI_TERMINAL_COMPACT "\xee\xb2\xbb"	// U+ecbb
+#define ICON_CI_VM_PENDING "\xee\xb2\xbc"	// U+ecbc
+#define ICON_CI_WORKTREE_COMPACT "\xee\xb2\xbd"	// U+ecbd
+#define ICON_CI_DEVELOPER_TOOLS "\xee\xb2\xbe"	// U+ecbe
+#define ICON_CI_CLOUD_COMPACT "\xee\xb2\xbf"	// U+ecbf
+#define ICON_CI_AGENT_COMPACT "\xee\xb3\x80"	// U+ecc0
+#define ICON_CI_ASK_COMPACT "\xee\xb3\x81"	// U+ecc1
+#define ICON_CI_SETTINGS_COMPACT "\xee\xb3\x82"	// U+ecc2
+#define ICON_CI_VM_COMPACT "\xee\xb3\x83"	// U+ecc3

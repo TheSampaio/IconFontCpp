@@ -10,8 +10,8 @@ var IconsCodicons = Font{
 		{"CI", "codicon.ttf"},
 	},
 	Min: 0xea60,
-	Max16: 0xf102,
-	Max: 0xf102,
+	Max16: 0xecc3,
+	Max: 0xecc3,
 	Icons: map[string]string{
 		"Add":	"\xee\xa9\xa0", 	// U+ea60
 		"Plus":	"\xee\xa9\xa0", 	// U+ea60
@@ -663,7 +663,65 @@ var IconsCodicons = Font{
 		"TerminalSecure":	"\xee\xb2\x85", 	// U+ec85
 		"ChatImport":	"\xee\xb2\x86", 	// U+ec86
 		"ChatExport":	"\xee\xb2\x87", 	// U+ec87
-		"VmPending":	"\xef\x84\x81", 	// U+f101
-		"GitFetch":	"\xef\x84\x82", 	// U+f102
+		"ShareWindow":	"\xee\xb2\x88", 	// U+ec88
+		"CircleSlashCompact":	"\xee\xb2\x89", 	// U+ec89
+		"CopilotCompact":	"\xee\xb2\x8a", 	// U+ec8a
+		"FolderOpenedCompact":	"\xee\xb2\x8b", 	// U+ec8b
+		"FolderCompact":	"\xee\xb2\x8c", 	// U+ec8c
+		"GearCompact":	"\xee\xb2\x8d", 	// U+ec8d
+		"GitBranchCompact":	"\xee\xb2\x8e", 	// U+ec8e
+		"LibraryCompact":	"\xee\xb2\x8f", 	// U+ec8f
+		"RecordKeysCompact":	"\xee\xb2\x90", 	// U+ec90
+		"RemoteCompact":	"\xee\xb2\x91", 	// U+ec91
+		"RepoForkedCompact":	"\xee\xb2\x92", 	// U+ec92
+		"RepoCompact":	"\xee\xb2\x93", 	// U+ec93
+		"ShieldCompact":	"\xee\xb2\x94", 	// U+ec94
+		"SparkleCompact":	"\xee\xb2\x95", 	// U+ec95
+		"SymbolColorCompact":	"\xee\xb2\x96", 	// U+ec96
+		"WindowCompact":	"\xee\xb2\x97", 	// U+ec97
+		"ErrorCompact":	"\xee\xb2\x98", 	// U+ec98
+		"WarningCompact":	"\xee\xb2\x99", 	// U+ec99
+		"PassCompact":	"\xee\xb2\x9a", 	// U+ec9a
+		"Important":	"\xee\xb2\x9b", 	// U+ec9b
+		"ImportantCompact":	"\xee\xb2\x9c", 	// U+ec9c
+		"RocketCompact":	"\xee\xb2\x9d", 	// U+ec9d
+		"Unpin":	"\xee\xb2\x9e", 	// U+ec9e
+		"AddCompact":	"\xee\xb2\x9f", 	// U+ec9f
+		"AttachCompact":	"\xee\xb2\xa0", 	// U+eca0
+		"BeakerCompact":	"\xee\xb2\xa1", 	// U+eca1
+		"CheckCompact":	"\xee\xb2\xa2", 	// U+eca2
+		"ChecklistCompact":	"\xee\xb2\xa3", 	// U+eca3
+		"ChevronDownCompact":	"\xee\xb2\xa4", 	// U+eca4
+		"ChevronLeftCompact":	"\xee\xb2\xa5", 	// U+eca5
+		"ChevronRightCompact":	"\xee\xb2\xa6", 	// U+eca6
+		"ChevronUpCompact":	"\xee\xb2\xa7", 	// U+eca7
+		"CircleFilledCompact":	"\xee\xb2\xa8", 	// U+eca8
+		"CircleSmallFilledCompact":	"\xee\xb2\xa9", 	// U+eca9
+		"CloseCompact":	"\xee\xb2\xaa", 	// U+ecaa
+		"CollapseAllCompact":	"\xee\xb2\xab", 	// U+ecab
+		"CommentCompact":	"\xee\xb2\xac", 	// U+ecac
+		"CommentUnresolvedCompact":	"\xee\xb2\xad", 	// U+ecad
+		"DebugConnectedCompact":	"\xee\xb2\xae", 	// U+ecae
+		"DebugDisconnectCompact":	"\xee\xb2\xaf", 	// U+ecaf
+		"EditCompact":	"\xee\xb2\xb0", 	// U+ecb0
+		"FileMediaCompact":	"\xee\xb2\xb1", 	// U+ecb1
+		"GitFetch":	"\xee\xb2\xb2", 	// U+ecb2
+		"LightbulbCompact":	"\xee\xb2\xb3", 	// U+ecb3
+		"LoadingCompact":	"\xee\xb2\xb4", 	// U+ecb4
+		"PassFilledCompact":	"\xee\xb2\xb5", 	// U+ecb5
+		"ProjectCompact":	"\xee\xb2\xb6", 	// U+ecb6
+		"RefreshCompact":	"\xee\xb2\xb7", 	// U+ecb7
+		"SearchCompact":	"\xee\xb2\xb8", 	// U+ecb8
+		"SessionInProgressCompact":	"\xee\xb2\xb9", 	// U+ecb9
+		"SyncCompact":	"\xee\xb2\xba", 	// U+ecba
+		"TerminalCompact":	"\xee\xb2\xbb", 	// U+ecbb
+		"VmPending":	"\xee\xb2\xbc", 	// U+ecbc
+		"WorktreeCompact":	"\xee\xb2\xbd", 	// U+ecbd
+		"DeveloperTools":	"\xee\xb2\xbe", 	// U+ecbe
+		"CloudCompact":	"\xee\xb2\xbf", 	// U+ecbf
+		"AgentCompact":	"\xee\xb3\x80", 	// U+ecc0
+		"AskCompact":	"\xee\xb3\x81", 	// U+ecc1
+		"SettingsCompact":	"\xee\xb3\x82", 	// U+ecc2
+		"VmCompact":	"\xee\xb3\x83", 	// U+ecc3
 	},
 }
